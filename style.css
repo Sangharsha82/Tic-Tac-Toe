@@ -35,6 +35,7 @@
         width: 18vmin;
         background-color: #476c9b;
         color: black;
+        font-size: 5rem;
       }
       #reset {
         padding: 1rem;
@@ -43,4 +44,27 @@
         color: white;
         border-radius: 0.25rem;
         border: none;
+      }
+      #new-game{
+        padding: 1rem;
+        font-size: 1.25rem;
+        background-color: #476c9b;
+        color: white;
+        border-radius: 0.25rem;
+        border: none;
+      }
+      .msg
+      {
+        height: 100vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        flex-direction: column;
+        gap: 4rem;
+      }
+      #winner{
+        font-size: 5vmin;
+      }
+      .hide{
+        display: none;
       }
